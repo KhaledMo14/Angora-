@@ -1,0 +1,482 @@
+
+body
+{
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+}
+
+.navbar
+{
+    z-index: 999;
+    
+}
+
+.navbar .nav-item:hover a 
+{
+    color: #f25454 !important ;
+}
+
+.navbar .nav-item a
+{
+ color: white !important;
+}
+#home 
+{
+    color: #f25454 !important
+}
+
+@media (min-width:400px) and (max-width:1000px) {
+   
+   .first-cont h1 {font-size:2rem !important}
+   .navbar .nav-item a {color: black !important}
+   .navbar-nav i {display: none;}
+}
+.carousel
+{
+    margin-top: -72px;
+}
+
+.carousel-inner img 
+{
+    height: 100vh;
+}
+
+
+
+.carousel-item h1 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+} 
+/*end of inrto*/
+
+.About
+{
+    margin-top: 5rem;
+}
+
+.About .line 
+{
+    width: 60px;
+   height: 1px;
+   background-color:  #666;
+   transition: .5s;
+  
+  
+}
+
+.About-text p 
+{
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.About-text h2 
+{
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2.5rem;
+}
+
+.About-text h1 
+{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+
+.About-text:hover .line
+{
+    width: 100px;
+}
+
+.about-pro p 
+{
+    font-size: .9rem;
+    color: #666;
+}
+
+.pro-inf
+{
+    height: 35px;
+} 
+/*end of about*/
+
+.team
+{
+    margin-top: 8rem;
+   
+}
+
+.team .line 
+{
+   width: 60px;
+   height: 1px;
+   background-color:  #666;
+   transition: .5s;
+}
+
+.team h2 
+{
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2.5rem;
+}
+
+.team h1 
+{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+
+.our-team:hover .line
+{
+    width: 100px;
+}
+
+.our-team p 
+{
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.team-profile
+{
+    position: relative;
+    overflow: hidden;;
+}
+
+.team-profile img 
+{
+    transition: transform .5s;
+    width: 100%;
+
+}
+
+
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 84, 84, 0.85);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition:.2s;  
+}
+
+.overlay a 
+{
+    color: white;
+}
+
+.team-profile:hover .overlay 
+{
+    opacity: 1;
+    
+}
+
+.team-profile:hover img 
+{
+    transform: scale(1.2);
+}
+
+.pro-cont:hover h5 
+{
+    color: rgb(242, 84, 84, 0.85);
+}
+
+.team-det h5 
+{
+    font-size: 1.2rem;
+}
+.team-det p 
+{
+    color: #666;
+    margin-top: -4px;
+}
+
+/*end of team section*/
+
+.ideas
+{
+    margin-top: 8rem;
+}
+
+/*end of ideas section*/
+
+.services
+{
+    margin-top: 5rem;
+    background-color: #f3f3f3;
+    
+}
+
+.services .line 
+{
+   width: 60px;
+   height: 1px;
+   background-color:  #666;
+   transition: .5s;
+}
+
+.services h2 
+{
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2.5rem;
+}
+
+.services h1 
+{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #dfdfdf;
+}
+
+.services:hover .line
+{
+    width: 100px;
+}
+
+.our-services p 
+{
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.each-services
+{
+    transition: .5s;
+}
+
+.each-services p
+{
+    font-size: 1rem;
+    color: #666;
+}
+
+.each-services i 
+{
+   position: absolute;
+   left: 5px;
+   top: 0px;
+   color: #f25454; 
+   font-size: 1.4rem;
+}
+
+.each-services h3 
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.each-services:hover h3 
+{
+    color: #f25454;
+}
+
+/*end of services section*/
+
+.reviews
+{
+    margin-top: 5rem;
+}
+
+.reviews .line 
+{
+   width: 60px;
+   height: 1px;
+   background-color:  #666;
+   transition: .5s;
+}
+
+.reviews h2
+{
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2.5rem;
+}
+
+.reviews h1 
+{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #f1f1f1;
+}
+
+
+.reviews:hover .line
+{
+    width: 100px;
+}
+.reviews-text p 
+{
+    
+       color: #999;
+      font-size: 1.2rem;
+ 
+}
+
+.reviews .carousel-inner img 
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.reviews .carousel-inner .carousel-item p
+{
+    font-size: 1.3rem;
+    color: #999;
+}
+
+.reviews .layer 
+{
+    padding: 5rem;
+    
+   
+}
+
+.reviews .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -20%;
+    left: 0;
+    transform: translate(0,-20%);
+    
+  }
+
+  .reviews .carousel-indicators li 
+  {
+      background-color: skyblue !important;
+  }
+
+  @media (min-width:400px) and (max-width:1000px) 
+  {
+    
+    .reviews-text p {margin-top : 20px}
+  }
+
+ /*end of review section*/
+
+ .contact
+ {
+     margin-top: 5rem;
+     background-color: #f3f3f3;
+     
+ }
+
+
+ .contact .line 
+{
+   width: 60px;
+   height: 1px;
+   background-color:  #666;
+   transition: .5s;
+}
+
+.contact .get-in h2 
+{
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2.5rem;
+}
+
+.contact h1 
+{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #eeecec;
+}
+
+
+.contact:hover .line
+{
+    width: 100px;
+}
+
+.us h5
+{
+    transition: .3s;
+}
+
+.contact .us i 
+{
+    color: #f25454;
+    font-size: 1.8rem;
+}
+
+.us:hover h5
+{
+    color: #f25454;
+}
+
+@media (min-width:400px) and (max-width:1000px) 
+  {
+    
+    .get-in p {margin-top : 20px}
+  }
+ /*end of contact*/
+
+ .last 
+ {
+    
+     background-color: black;
+ }
+
+ .last h4
+ { 
+   color: white;
+   font-weight: bold;
+   font-size: 1.3rem;
+ }
+
+ .last p 
+ {
+    color: #b0b0b0
+ }
+
+ .last  a 
+ {
+    color: #b0b0b0 ;
+    text-decoration: none;
+ }
+ 
+ .last a:hover 
+ {
+     color: rgba(242, 84, 84, 0.85);
+ }
+
+ .last li 
+ {
+     list-style: none;
+     
+ }
+ 
+ .tags 
+ {
+     overflow: auto;
+ }
+ .tags a 
+ {
+    border: 1px solid gray;
+     border-radius: 2px;
+     display: inline-block;
+     margin-bottom: 8px;
+     margin-right: 8px;
+     font-size: .8rem;
+ }
+
